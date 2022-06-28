@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "items_adder_font_fix",
+  "version": "${version}",
+  "name": "ItemsAdderFontFix",
+  "description": "Fix MC-253169 causing font not displaying correctly in some cases.",
+  "authors": [
+    "Fox2Code"
+  ],
+  "contact": {
+    "website": "https://github.com/Fox2Code",
+    "repo": "https://github.com/Fox2Code/ItemsAdderFontFix"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "ItemsAdderFontFix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.19"
+  }
+}
